@@ -7,7 +7,7 @@ from threading import Thread
 from modules.utils import set_config
 
 # Parse command line arguments
-parser = argparse.ArgumentParser(description='SPACE (Swarm Planning And Control Evaluation) Simulator')
+parser = argparse.ArgumentParser(description='py_bt_ros')
 parser.add_argument('--config', type=str, default='config.yaml', help='Path to the configuration file (default: --config=config.yaml)')
 args = parser.parse_args()
 
@@ -26,16 +26,10 @@ async def game_loop():
     while env.running:
         env.handle_keyboard_events()
 
-        if not env.game_paused and not env.mission_completed:
+        if not env.game_paused:
             await env.step()
             # Record data if time recording mode is enabled
-            if env.save_timewise_result_csv:
-                env.record_timewise_result()
 
-        env.render()
-        env.update_display()
-        if env.recording:
-            env.record_screen_frame()
 
     env.close()
 
@@ -44,18 +38,14 @@ async def game_loop():
 def main():
     bt_viz_cfg = config['simulation'].get('bt_visualiser', {})
     if bt_viz_cfg.get('enabled', False):
-        agent_id = bt_viz_cfg.get('agent_id', 0)
-        if agent_id < len(env.agents):
-            from modules.bt_visualiser import visualise_bt
-            agent = env.agents[agent_id]
-            Thread(
-                target=visualise_bt, 
-                args=(agent.agent_id, agent.tree), 
-                daemon=True
-            ).start()
-        else:
-            print(f"[Warning] BT visualiser: agent_id {agent_id} is out of range!")
-    
+        from modules.bt_visualiser import visualise_bt
+        agent = env.agent
+        Thread(
+            target=visualise_bt, 
+            args=(0, agent.tree), 
+            daemon=True
+        ).start()
+
     asyncio.run(game_loop())
 
 if __name__ == "__main__":

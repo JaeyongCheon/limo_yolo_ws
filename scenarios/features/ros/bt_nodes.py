@@ -1,7 +1,5 @@
 import math
-import random
-from modules.base_bt_nodes import BTNodeList, Status, Node, Sequence, Fallback, ReactiveSequence, ReactiveFallback, SyncAction, GatherLocalInfo, AssignTask
-from modules.base_bt_nodes import _IsTaskCompleted, _IsArrivedAtTask, _MoveToTask, _ExecuteTaskWhileFollowing, _ExploreArea
+from modules.base_bt_nodes import BTNodeList, Status, Node, Sequence, Fallback, ReactiveSequence, ReactiveFallback
 # BT Node List
 CUSTOM_ACTION_NODES = [
     'MoveToTarget',
@@ -47,7 +45,11 @@ class IsNearbyTarget(ConditionWithROSTopics):
         dist = math.hypot(a.x - b.x, a.y - b.y)
         blackboard["distance_to_target"] = dist
         blackboard["target"] = b  # <- target pose 캐시를 블랙보드에 기록
-        return dist <= float(thresh)
+        if dist <= float(thresh):
+            result = True
+        else:
+            result = False
+        return result # dist <= float(thresh)
 
 # bt_nodes.py (발췌)
 from action_msgs.msg import GoalStatus
