@@ -105,6 +105,7 @@ class TurtleNavigateServer(Node):
         # https://docs.ros.org/en/humble/p/nav2_msgs/action/NavigateToPose.html
 
         self.get_logger().info(f"New goal -> ({x_t:.2f}, {y_t:.2f})")
+        self._goal_xy = x_t, y_t
 
         while rclpy.ok():
             # 취소 처리
@@ -149,7 +150,8 @@ class TurtleNavigateServer(Node):
             # 도착 판정
             if dist <= self.pos_tol:
                 self._publish_stop()
-                goal_handle.succeed()
+                # goal_handle.succeed()
+                goal_handle.abort() # NOTE: Force Failure
                 result.result = Empty()
                 self.get_logger().info("Goal reached.")
                 return result
