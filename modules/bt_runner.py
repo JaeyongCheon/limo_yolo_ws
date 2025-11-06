@@ -44,14 +44,22 @@ class BTRunner:
     async def step(self):
         # Main bt_runner loop logic
         await self.agent.run_tree()
-        if self.bt_viz_cfg.get('enabled', False):
-            self.bt_visualiser.render_tree(self.screen, self.agent.tree)
-            pygame.display.flip()
         self.clock.tick(self.bt_tick_rate)
 
 
     def close(self):
         pass
+
+    def render(self):
+        if self.bt_viz_cfg.get('enabled', False):
+            self.bt_visualiser.render_tree(self.screen, self.agent.tree)
+                    
+            if self.paused:
+                font = pygame.font.Font(None, 48) 
+                text = font.render("Paused", True, (255, 0, 0))
+                self.screen.blit(text, (10, 10))       
+
+            pygame.display.flip()
 
 
     def handle_keyboard_events(self):

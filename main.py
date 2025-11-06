@@ -21,6 +21,7 @@ async def loop():
         bt_runner.handle_keyboard_events()
         if not bt_runner.paused:
             await bt_runner.step()
+        bt_runner.render()
 
     bt_runner.close()
 
