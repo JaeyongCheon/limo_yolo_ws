@@ -13,15 +13,17 @@
 ### 1단계: Webots + Nav2 실행
 
 ```bash
+# 깃허브 주소 클론
+git clone -b codespace-humble-guide-5g9g6v9gwqvqfv6r9 https://github.com/dongmin8350/py_bt_ros
+
+# 빌드 및 환경 소싱
+colcon build
+source install/local_setup.bash
+
 # Webots 워크스페이스로 이동
 cd ~/webots_ros2_ws
 
-# 환경 소싱
-source install/setup.bash
-
 # Webots + Nav2 실행
-
-source install/local_setup.bash
 ros2 launch webots_ros2_turtlebot robot_launch.py nav:=true
 ```
 
@@ -72,7 +74,7 @@ python3 main.py
 
 ## 트러블슈팅
 
-### 문제 1: "⏳ Waiting for goal pose..." 계속 표시
+### 문제 1: " Waiting for goal pose..." 계속 표시
 
 **원인:** 목표 위치가 발행되지 않음
 
@@ -82,7 +84,7 @@ ros2 topic pub --once /goal_pose geometry_msgs/msg/PoseStamped \
 "{header: {frame_id: 'map'}, pose: {position: {x: 0.0, y: 0.0, z: 0.0}, orientation: {w: 1.0}}}"
 ```
 
-### 문제 2: "❌ Navigation aborted/failed: 6"
+### 문제 2: " Navigation aborted/failed: 6"
 
 **원인:** 목표 지점이 도달 불가능한 위치 (장애물 또는 맵 밖)
 
