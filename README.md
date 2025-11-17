@@ -14,7 +14,7 @@
 
 ```bash
 # 깃허브 주소 클론
-git clone -b codespace-humble-guide-5g9g6v9gwqvqfv6r9 https://github.com/dongmin8350/py_bt_ros
+git clone https://github.com/dongmin8350/py_bt_ros.git
 
 # 빌드 및 환경 소싱
 colcon build
