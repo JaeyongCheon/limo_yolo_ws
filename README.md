@@ -565,7 +565,8 @@ https://github.com/JaeyongCheon/limo_yolo_ws/issues
 ---
 
 패키지 사용 및 적용 시 도움을 받았습니다.
-
+main 브랜치에 리퀘스트가 안되어 last 브랜치에 적용했습니다.
 ---
+
 
 **마지막 업데이트:** 2025-12-17
