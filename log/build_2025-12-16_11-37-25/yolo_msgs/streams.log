@@ -1,0 +1,364 @@
+[0.041s] Invoking command in '/home/wego/Downloads/py_bt_ros_spy/build/yolo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wego/wego_ws/install/limo_ros2_application:/home/wego/wego_ws/install/nav2_simple_commander:/home/wego/wego_ws/install/dl_ros2_application:/home/wego/Downloads/backups/wego_ws/install/limo_ros2_application:/home/wego/Downloads/backups/wego_ws/install/nav2_simple_commander:/home/wego/Downloads/backups/wego_ws/install/dl_ros2_application:/opt/ros/humble /usr/bin/cmake --build /home/wego/Downloads/py_bt_ros_spy/build/yolo_msgs -- -j6 -l6
+[0.136s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_generator_c[0m
+[0.172s] [  8%] Built target ament_cmake_python_symlink_yolo_msgs
+[0.172s] [ 12%] Built target yolo_msgs__rosidl_generator_c
+[0.173s] [ 12%] Built target yolo_msgs__cpp
+[0.193s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_typesupport_c[0m
+[0.197s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_typesupport_cpp[0m
+[0.201s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_typesupport_introspection_c[0m
+[0.203s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.210s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.250s] [ 24%] Built target yolo_msgs__rosidl_typesupport_c
+[0.259s] [ 36%] Built target yolo_msgs__rosidl_typesupport_introspection_c
+[0.268s] [ 48%] Built target yolo_msgs__rosidl_typesupport_cpp
+[0.279s] [ 60%] Built target yolo_msgs__rosidl_typesupport_fastrtps_cpp
+[0.288s] [ 72%] Built target yolo_msgs__rosidl_typesupport_fastrtps_c
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.337s] [ 84%] Built target yolo_msgs__rosidl_typesupport_introspection_cpp
+[0.377s] [ 84%] Built target yolo_msgs
+[0.418s] [ 85%] Built target yolo_msgs__py
+[0.448s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_generator_py[0m
+[0.496s] [ 96%] Built target yolo_msgs__rosidl_generator_py
+[0.520s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.522s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_typesupport_c__pyext[0m
+[0.522s] [35m[1mConsolidate compiler generated dependencies of target yolo_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.550s] [ 99%] Built target yolo_msgs__rosidl_typesupport_c__pyext
+[0.551s] [ 99%] Built target yolo_msgs__rosidl_typesupport_introspection_c__pyext
+[0.551s] [100%] Built target yolo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.781s] running egg_info
+[0.832s] writing yolo_msgs.egg-info/PKG-INFO
+[0.833s] writing dependency_links to yolo_msgs.egg-info/dependency_links.txt
+[0.834s] writing top-level names to yolo_msgs.egg-info/top_level.txt
+[0.973s] reading manifest file 'yolo_msgs.egg-info/SOURCES.txt'
+[0.975s] writing manifest file 'yolo_msgs.egg-info/SOURCES.txt'
+[1.062s] [100%] Built target ament_cmake_python_build_yolo_msgs_egg
+[1.094s] Invoked command in '/home/wego/Downloads/py_bt_ros_spy/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wego/wego_ws/install/limo_ros2_application:/home/wego/wego_ws/install/nav2_simple_commander:/home/wego/wego_ws/install/dl_ros2_application:/home/wego/Downloads/backups/wego_ws/install/limo_ros2_application:/home/wego/Downloads/backups/wego_ws/install/nav2_simple_commander:/home/wego/Downloads/backups/wego_ws/install/dl_ros2_application:/opt/ros/humble /usr/bin/cmake --build /home/wego/Downloads/py_bt_ros_spy/build/yolo_msgs -- -j6 -l6
+[1.120s] Invoking command in '/home/wego/Downloads/py_bt_ros_spy/build/yolo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wego/wego_ws/install/limo_ros2_application:/home/wego/wego_ws/install/nav2_simple_commander:/home/wego/wego_ws/install/dl_ros2_application:/home/wego/Downloads/backups/wego_ws/install/limo_ros2_application:/home/wego/Downloads/backups/wego_ws/install/nav2_simple_commander:/home/wego/Downloads/backups/wego_ws/install/dl_ros2_application:/opt/ros/humble /usr/bin/cmake --install /home/wego/Downloads/py_bt_ros_spy/build/yolo_msgs
+[1.132s] -- Install configuration: ""
+[1.133s] -- Execute custom install script
+[1.134s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/ament_index/resource_index/rosidl_interfaces/yolo_msgs
+[1.135s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box2_d.h
+[1.135s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box3_d.h
+[1.136s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__functions.h
+[1.136s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__struct.h
+[1.136s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.h
+[1.137s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__functions.h
+[1.137s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__struct.h
+[1.137s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.h
+[1.137s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__functions.h
+[1.138s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__struct.h
+[1.138s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.h
+[1.138s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__functions.h
+[1.138s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__struct.h
+[1.139s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.h
+[1.139s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__functions.h
+[1.139s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__struct.h
+[1.140s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.h
+[1.140s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__functions.h
+[1.140s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__struct.h
+[1.140s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.h
+[1.141s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__functions.h
+[1.141s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__struct.h
+[1.141s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.h
+[1.141s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__functions.h
+[1.142s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__struct.h
+[1.142s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.h
+[1.142s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__functions.h
+[1.143s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__struct.h
+[1.143s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.h
+[1.143s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__functions.h
+[1.144s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__struct.h
+[1.144s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.h
+[1.144s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__functions.h
+[1.145s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__struct.h
+[1.145s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.h
+[1.145s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__functions.h
+[1.145s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__struct.h
+[1.145s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.h
+[1.146s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection.h
+[1.146s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection_array.h
+[1.146s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d.h
+[1.146s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d_array.h
+[1.146s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d.h
+[1.146s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d_array.h
+[1.147s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/mask.h
+[1.164s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/point2_d.h
+[1.185s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/pose2_d.h
+[1.201s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.218s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/vector2.h
+[1.236s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__functions.h
+[1.251s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__struct.h
+[1.270s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.h
+[1.285s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/set_classes.h
+[1.301s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/environment/library_path.sh
+[1.318s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/environment/library_path.dsv
+[1.336s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_c.h
+[1.352s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+[1.368s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[1.391s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_c.h
+[1.406s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_c.h
+[1.423s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_c.h
+[1.438s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_c.h
+[1.455s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_c.h
+[1.473s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_c.h
+[1.489s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h
+[1.505s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+[1.520s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_c.h
+[1.536s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.554s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_fastrtps_c.h
+[1.570s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_c.h
+[1.587s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+[1.604s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[1.619s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_c.h
+[1.637s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_c.h
+[1.656s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_c.h
+[1.677s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_c.h
+[1.697s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_c.h
+[1.718s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_introspection_c.h
+[1.741s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_c.h
+[1.764s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+[1.784s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_introspection_c.h
+[1.805s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.823s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_introspection_c.h
+[1.842s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box2_d.hpp
+[1.861s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box3_d.hpp
+[1.879s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__builder.hpp
+[1.903s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__struct.hpp
+[1.923s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__traits.hpp
+[1.942s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.hpp
+[1.963s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__builder.hpp
+[1.982s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__struct.hpp
+[2.002s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__traits.hpp
+[2.022s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.hpp
+[2.042s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__builder.hpp
+[2.065s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__struct.hpp
+[2.085s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__traits.hpp
+[2.107s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.hpp
+[2.129s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__builder.hpp
+[2.151s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__struct.hpp
+[2.171s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__traits.hpp
+[2.199s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.hpp
+[2.220s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__builder.hpp
+[2.245s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__struct.hpp
+[2.263s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__traits.hpp
+[2.282s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.hpp
+[2.304s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__builder.hpp
+[2.326s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__struct.hpp
+[2.344s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__traits.hpp
+[2.362s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.hpp
+[2.383s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__builder.hpp
+[2.401s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__struct.hpp
+[2.418s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__traits.hpp
+[2.439s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.hpp
+[2.462s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__builder.hpp
+[2.481s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__struct.hpp
+[2.503s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__traits.hpp
+[2.520s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.hpp
+[2.538s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__builder.hpp
+[2.557s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__struct.hpp
+[2.576s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__traits.hpp
+[2.596s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.hpp
+[2.615s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__builder.hpp
+[2.635s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__struct.hpp
+[2.654s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__traits.hpp
+[2.672s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.hpp
+[2.692s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__builder.hpp
+[2.710s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__struct.hpp
+[2.729s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__traits.hpp
+[2.754s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.hpp
+[2.772s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__builder.hpp
+[2.794s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__struct.hpp
+[2.814s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__traits.hpp
+[2.833s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.hpp
+[2.856s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection.hpp
+[2.876s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection_array.hpp
+[2.899s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d.hpp
+[2.920s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d_array.hpp
+[2.937s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d.hpp
+[2.960s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d_array.hpp
+[2.977s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/mask.hpp
+[2.996s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/point2_d.hpp
+[3.018s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/pose2_d.hpp
+[3.037s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.055s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/vector2.hpp
+[3.075s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__builder.hpp
+[3.096s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__struct.hpp
+[3.116s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__traits.hpp
+[3.136s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.hpp
+[3.157s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/set_classes.hpp
+[3.178s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.198s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.218s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[3.238s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[3.258s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.276s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[3.298s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.319s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[3.339s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_cpp.hpp
+[3.359s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.378s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.399s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_cpp.hpp
+[3.419s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.440s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_fastrtps_cpp.hpp
+[3.461s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_cpp.hpp
+[3.482s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+[3.502s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[3.521s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_cpp.hpp
+[3.542s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_cpp.hpp
+[3.560s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_cpp.hpp
+[3.579s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_cpp.hpp
+[3.598s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_cpp.hpp
+[3.618s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_introspection_cpp.hpp
+[3.641s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp
+[3.661s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[3.682s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_introspection_cpp.hpp
+[3.702s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_introspection_cpp.hpp
+[3.724s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/environment/pythonpath.sh
+[3.745s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/environment/pythonpath.dsv
+[3.764s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.3.1-py3.10.egg-info/PKG-INFO
+[3.787s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.3.1-py3.10.egg-info/SOURCES.txt
+[3.807s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.3.1-py3.10.egg-info/dependency_links.txt
+[3.830s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.3.1-py3.10.egg-info/top_level.txt
+[3.851s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/__init__.py
+[3.872s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_c.c
+[3.894s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.913s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.934s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/libyolo_msgs__rosidl_generator_py.so
+[3.955s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/__init__.py
+[3.976s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box2_d.py
+[3.996s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box2_d_s.c
+[4.016s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box3_d.py
+[4.041s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box3_d_s.c
+[4.060s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection.py
+[4.081s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_array.py
+[4.101s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_array_s.c
+[4.121s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_s.c
+[4.145s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d.py
+[4.166s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_array.py
+[4.188s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_array_s.c
+[4.205s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_s.c
+[4.227s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d.py
+[4.250s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_array.py
+[4.271s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_array_s.c
+[4.291s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_s.c
+[4.312s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_mask.py
+[4.335s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_mask_s.c
+[4.356s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_point2_d.py
+[4.375s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_point2_d_s.c
+[4.394s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_pose2_d.py
+[4.412s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_pose2_d_s.c
+[4.434s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_vector2.py
+[4.456s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_vector2_s.c
+[4.484s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/__init__.py
+[4.508s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/_set_classes.py
+[4.529s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/_set_classes_s.c
+[4.551s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.570s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.589s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.609s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.609s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.610s] -- Up-to-date symlink: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.611s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/Point2D.idl
+[4.633s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/Vector2.idl
+[4.655s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/Pose2D.idl
+[4.673s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox2D.idl
+[4.693s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox3D.idl
+[4.712s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/Mask.idl
+[4.734s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2D.idl
+[4.752s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2DArray.idl
+[4.770s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3D.idl
+[4.789s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3DArray.idl
+[4.808s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/Detection.idl
+[4.829s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/DetectionArray.idl
+[4.848s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/srv/SetClasses.idl
+[4.867s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/Point2D.msg
+[4.887s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/Vector2.msg
+[4.908s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/Pose2D.msg
+[4.929s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox2D.msg
+[4.950s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox3D.msg
+[4.968s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/Mask.msg
+[4.994s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2D.msg
+[5.018s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2DArray.msg
+[5.039s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3D.msg
+[5.062s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3DArray.msg
+[5.085s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/Detection.msg
+[5.104s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/msg/DetectionArray.msg
+[5.124s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/srv/SetClasses.srv
+[5.146s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/srv/SetClasses_Request.msg
+[5.167s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/srv/SetClasses_Response.msg
+[5.188s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/ament_index/resource_index/package_run_dependencies/yolo_msgs
+[5.208s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/ament_index/resource_index/parent_prefix_path/yolo_msgs
+[5.228s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/environment/ament_prefix_path.sh
+[5.253s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/environment/ament_prefix_path.dsv
+[5.272s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/environment/path.sh
+[5.292s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/environment/path.dsv
+[5.311s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/local_setup.bash
+[5.332s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/local_setup.sh
+[5.358s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/local_setup.zsh
+[5.376s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/local_setup.dsv
+[5.400s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/package.dsv
+[5.423s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/ament_index/resource_index/packages/yolo_msgs
+[5.443s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/rosidl_cmake-extras.cmake
+[5.467s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.486s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.508s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.527s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.549s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.568s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.588s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgsConfig.cmake
+[5.611s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgsConfig-version.cmake
+[5.630s] -- Symlinking: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/package.xml
+[5.656s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_c.so
+[5.657s] -- Set runtime path of "/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_c.so" to ""
+[5.658s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_c.so
+[5.660s] -- Set runtime path of "/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.661s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_c.so
+[5.662s] -- Set runtime path of "/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.664s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_c.so
+[5.664s] -- Set runtime path of "/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_c.so" to ""
+[5.665s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.667s] -- Set runtime path of "/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.669s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_cpp.so
+[5.671s] -- Set runtime path of "/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.672s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_cpp.so
+[5.672s] -- Set runtime path of "/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_cpp.so" to ""
+[5.845s] Listing '/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs'...
+[5.845s] Compiling '/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/__init__.py'...
+[5.846s] Listing '/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg'...
+[5.847s] Compiling '/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/__init__.py'...
+[5.847s] Compiling '/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box2_d.py'...
+[5.847s] Compiling '/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box3_d.py'...
+[5.848s] Compiling '/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection.py'...
+[5.848s] Compiling '/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_array.py'...
+[5.848s] Compiling '/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d.py'...
+[5.848s] Compiling '/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_array.py'...
+[5.848s] Compiling '/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d.py'...
+[5.849s] Compiling '/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_array.py'...
+[5.849s] Compiling '/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_mask.py'...
+[5.849s] Compiling '/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_point2_d.py'...
+[5.849s] Compiling '/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_pose2_d.py'...
+[5.850s] Compiling '/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_vector2.py'...
+[5.850s] Listing '/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv'...
+[5.850s] Compiling '/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/__init__.py'...
+[5.850s] Compiling '/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/_set_classes.py'...
+[5.856s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_py.so
+[5.858s] -- Set runtime path of "/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_py.so" to ""
+[5.858s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_cExport.cmake
+[5.859s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.860s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.860s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.861s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.862s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.863s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cExport.cmake
+[5.864s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.865s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_cppExport.cmake
+[5.866s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.866s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.867s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.867s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.868s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cppExport.cmake
+[5.868s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.869s] -- Old export file "/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_pyExport-noconfig.cmake].
+[5.870s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_pyExport.cmake
+[5.870s] -- Installing: /home/wego/Downloads/py_bt_ros_spy/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.878s] Invoked command in '/home/wego/Downloads/py_bt_ros_spy/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wego/wego_ws/install/limo_ros2_application:/home/wego/wego_ws/install/nav2_simple_commander:/home/wego/wego_ws/install/dl_ros2_application:/home/wego/Downloads/backups/wego_ws/install/limo_ros2_application:/home/wego/Downloads/backups/wego_ws/install/nav2_simple_commander:/home/wego/Downloads/backups/wego_ws/install/dl_ros2_application:/opt/ros/humble /usr/bin/cmake --install /home/wego/Downloads/py_bt_ros_spy/build/yolo_msgs

@@ -1,0 +1,6 @@
+Invoking command in '/home/psh/py_bt_ros/build/yolo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/psh/py_bt_ros/src/yolo_ros/yolo_msgs -DCMAKE_INSTALL_PREFIX=/home/psh/py_bt_ros/install/yolo_msgs
+Invoked command in '/home/psh/py_bt_ros/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/psh/py_bt_ros/src/yolo_ros/yolo_msgs -DCMAKE_INSTALL_PREFIX=/home/psh/py_bt_ros/install/yolo_msgs
+Invoking command in '/home/psh/py_bt_ros/build/yolo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/psh/py_bt_ros/build/yolo_msgs -- -j22 -l22
+Invoked command in '/home/psh/py_bt_ros/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/psh/py_bt_ros/build/yolo_msgs -- -j22 -l22
+Invoking command in '/home/psh/py_bt_ros/build/yolo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/psh/py_bt_ros/build/yolo_msgs
+Invoked command in '/home/psh/py_bt_ros/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/psh/py_bt_ros/build/yolo_msgs

@@ -128,7 +128,7 @@ class CaptureImage(Node):
         os.makedirs(self._save_dir, exist_ok=True)
         
         # 카메라 토픽 구독 - TurtleBot3Burger의 카메라
-        camera_topic = "/TurtleBot3Burger/front_camera/image_color"
+        camera_topic = "/camera/rgb/image_raw"
         self.ros.node.create_subscription(
             Image,
             camera_topic,

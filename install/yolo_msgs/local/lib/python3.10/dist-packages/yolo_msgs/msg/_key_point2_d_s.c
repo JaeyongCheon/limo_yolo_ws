@@ -1,0 +1,1 @@
+/home/wego/Downloads/py_bt_ros_spy/build/yolo_msgs/rosidl_generator_py/yolo_msgs/msg/_key_point2_d_s.c

@@ -1,0 +1,1 @@
+/home/wego/Downloads/py_bt_ros_spy/build/yolo_msgs/rosidl_generator_py/yolo_msgs/msg/_mask_s.c

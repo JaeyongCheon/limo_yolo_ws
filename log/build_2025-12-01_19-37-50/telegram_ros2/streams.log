@@ -1,0 +1,43 @@
+[0.698s] Invoking command in '/home/psh/py_bt_ros/src/telegram_ros2': AMENT_PREFIX_PATH=/home/psh/py_bt_ros/install/instant_messaging_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psh/py_bt_ros/install/instant_messaging_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/psh/py_bt_ros/install/instant_messaging_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psh/py_bt_ros/build/telegram_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/psh/py_bt_ros/install/telegram_ros2/lib/python3.10/site-packages:/home/psh/py_bt_ros/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/telegram_ros2 build --build-base /home/psh/py_bt_ros/build/telegram_ros2/build install --record /home/psh/py_bt_ros/build/telegram_ros2/install.log --install-scripts $base/lib/telegram_ros2 --single-version-externally-managed install_data
+[0.982s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.982s]   warnings.warn(
+[0.990s] running egg_info
+[0.991s] creating ../../build/telegram_ros2/telegram_ros2.egg-info
+[0.991s] writing ../../build/telegram_ros2/telegram_ros2.egg-info/PKG-INFO
+[0.992s] writing dependency_links to ../../build/telegram_ros2/telegram_ros2.egg-info/dependency_links.txt
+[0.992s] writing entry points to ../../build/telegram_ros2/telegram_ros2.egg-info/entry_points.txt
+[0.992s] writing requirements to ../../build/telegram_ros2/telegram_ros2.egg-info/requires.txt
+[0.992s] writing top-level names to ../../build/telegram_ros2/telegram_ros2.egg-info/top_level.txt
+[0.992s] writing manifest file '../../build/telegram_ros2/telegram_ros2.egg-info/SOURCES.txt'
+[0.993s] reading manifest file '../../build/telegram_ros2/telegram_ros2.egg-info/SOURCES.txt'
+[0.994s] adding license file 'LICENSE'
+[0.994s] writing manifest file '../../build/telegram_ros2/telegram_ros2.egg-info/SOURCES.txt'
+[0.994s] running build
+[0.994s] running build_py
+[0.995s] creating /home/psh/py_bt_ros/build/telegram_ros2/build
+[0.995s] creating /home/psh/py_bt_ros/build/telegram_ros2/build/lib
+[0.995s] creating /home/psh/py_bt_ros/build/telegram_ros2/build/lib/telegram_ros2
+[0.995s] copying telegram_ros2/telegram_ros2_bridge.py -> /home/psh/py_bt_ros/build/telegram_ros2/build/lib/telegram_ros2
+[0.995s] copying telegram_ros2/__init__.py -> /home/psh/py_bt_ros/build/telegram_ros2/build/lib/telegram_ros2
+[0.995s] running install
+[0.995s] running install_lib
+[0.995s] creating /home/psh/py_bt_ros/install/telegram_ros2/lib/python3.10/site-packages/telegram_ros2
+[0.995s] copying /home/psh/py_bt_ros/build/telegram_ros2/build/lib/telegram_ros2/telegram_ros2_bridge.py -> /home/psh/py_bt_ros/install/telegram_ros2/lib/python3.10/site-packages/telegram_ros2
+[0.996s] copying /home/psh/py_bt_ros/build/telegram_ros2/build/lib/telegram_ros2/__init__.py -> /home/psh/py_bt_ros/install/telegram_ros2/lib/python3.10/site-packages/telegram_ros2
+[0.996s] byte-compiling /home/psh/py_bt_ros/install/telegram_ros2/lib/python3.10/site-packages/telegram_ros2/telegram_ros2_bridge.py to telegram_ros2_bridge.cpython-310.pyc
+[0.998s] byte-compiling /home/psh/py_bt_ros/install/telegram_ros2/lib/python3.10/site-packages/telegram_ros2/__init__.py to __init__.cpython-310.pyc
+[0.999s] running install_data
+[0.999s] creating /home/psh/py_bt_ros/install/telegram_ros2/share/ament_index
+[0.999s] creating /home/psh/py_bt_ros/install/telegram_ros2/share/ament_index/resource_index
+[0.999s] creating /home/psh/py_bt_ros/install/telegram_ros2/share/ament_index/resource_index/packages
+[0.999s] copying resource/telegram_ros2 -> /home/psh/py_bt_ros/install/telegram_ros2/share/ament_index/resource_index/packages
+[0.999s] copying package.xml -> /home/psh/py_bt_ros/install/telegram_ros2/share/telegram_ros2
+[0.999s] copying launch/telegram_bridge.launch.py -> /home/psh/py_bt_ros/install/telegram_ros2/share/telegram_ros2
+[0.999s] creating /home/psh/py_bt_ros/install/telegram_ros2/share/telegram_ros2/config
+[1.000s] copying config/example_param.yaml -> /home/psh/py_bt_ros/install/telegram_ros2/share/telegram_ros2/config
+[1.000s] running install_egg_info
+[1.001s] Copying ../../build/telegram_ros2/telegram_ros2.egg-info to /home/psh/py_bt_ros/install/telegram_ros2/lib/python3.10/site-packages/telegram_ros2-0.0.0-py3.10.egg-info
+[1.001s] running install_scripts
+[1.024s] Installing telegram_ros2_bridge script to /home/psh/py_bt_ros/install/telegram_ros2/lib/telegram_ros2
+[1.024s] writing list of installed files to '/home/psh/py_bt_ros/build/telegram_ros2/install.log'
+[1.053s] Invoked command in '/home/psh/py_bt_ros/src/telegram_ros2' returned '0': AMENT_PREFIX_PATH=/home/psh/py_bt_ros/install/instant_messaging_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psh/py_bt_ros/install/instant_messaging_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/psh/py_bt_ros/install/instant_messaging_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psh/py_bt_ros/build/telegram_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/psh/py_bt_ros/install/telegram_ros2/lib/python3.10/site-packages:/home/psh/py_bt_ros/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/telegram_ros2 build --build-base /home/psh/py_bt_ros/build/telegram_ros2/build install --record /home/psh/py_bt_ros/build/telegram_ros2/install.log --install-scripts $base/lib/telegram_ros2 --single-version-externally-managed install_data

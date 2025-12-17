@@ -1,0 +1,1 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/wego/py_bt_ros_spy/build/yolo_msgs/CMakeCache.txt is different than the directory /home/wego/Downloads/py_bt_ros_spy/build/yolo_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m

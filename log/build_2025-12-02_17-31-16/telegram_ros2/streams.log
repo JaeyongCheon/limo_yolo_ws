@@ -1,0 +1,24 @@
+[0.908s] Invoking command in '/home/psh/py_bt_ros/src/telegram_ros2': AMENT_PREFIX_PATH=/home/psh/py_bt_ros/install/instant_messaging_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psh/py_bt_ros/install/instant_messaging_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/psh/py_bt_ros/install/instant_messaging_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psh/py_bt_ros/build/telegram_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/psh/py_bt_ros/install/telegram_ros2/lib/python3.10/site-packages:/home/psh/py_bt_ros/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/telegram_ros2 build --build-base /home/psh/py_bt_ros/build/telegram_ros2/build install --record /home/psh/py_bt_ros/build/telegram_ros2/install.log --install-scripts $base/lib/telegram_ros2 --single-version-externally-managed install_data
+[1.203s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.204s]   warnings.warn(
+[1.214s] running egg_info
+[1.215s] writing ../../build/telegram_ros2/telegram_ros2.egg-info/PKG-INFO
+[1.215s] writing dependency_links to ../../build/telegram_ros2/telegram_ros2.egg-info/dependency_links.txt
+[1.215s] writing entry points to ../../build/telegram_ros2/telegram_ros2.egg-info/entry_points.txt
+[1.216s] writing requirements to ../../build/telegram_ros2/telegram_ros2.egg-info/requires.txt
+[1.216s] writing top-level names to ../../build/telegram_ros2/telegram_ros2.egg-info/top_level.txt
+[1.218s] reading manifest file '../../build/telegram_ros2/telegram_ros2.egg-info/SOURCES.txt'
+[1.218s] adding license file 'LICENSE'
+[1.220s] writing manifest file '../../build/telegram_ros2/telegram_ros2.egg-info/SOURCES.txt'
+[1.220s] running build
+[1.220s] running build_py
+[1.220s] running install
+[1.221s] running install_lib
+[1.223s] running install_data
+[1.223s] running install_egg_info
+[1.225s] removing '/home/psh/py_bt_ros/install/telegram_ros2/lib/python3.10/site-packages/telegram_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+[1.226s] Copying ../../build/telegram_ros2/telegram_ros2.egg-info to /home/psh/py_bt_ros/install/telegram_ros2/lib/python3.10/site-packages/telegram_ros2-0.0.0-py3.10.egg-info
+[1.226s] running install_scripts
+[1.252s] Installing telegram_ros2_bridge script to /home/psh/py_bt_ros/install/telegram_ros2/lib/telegram_ros2
+[1.253s] writing list of installed files to '/home/psh/py_bt_ros/build/telegram_ros2/install.log'
+[1.283s] Invoked command in '/home/psh/py_bt_ros/src/telegram_ros2' returned '0': AMENT_PREFIX_PATH=/home/psh/py_bt_ros/install/instant_messaging_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psh/py_bt_ros/install/instant_messaging_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/psh/py_bt_ros/install/instant_messaging_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psh/py_bt_ros/build/telegram_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/psh/py_bt_ros/install/telegram_ros2/lib/python3.10/site-packages:/home/psh/py_bt_ros/install/instant_messaging_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/telegram_ros2 build --build-base /home/psh/py_bt_ros/build/telegram_ros2/build install --record /home/psh/py_bt_ros/build/telegram_ros2/install.log --install-scripts $base/lib/telegram_ros2 --single-version-externally-managed install_data

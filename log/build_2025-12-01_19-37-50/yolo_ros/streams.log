@@ -1,0 +1,27 @@
+[0.754s] Invoking command in '/home/psh/py_bt_ros/src/yolo_ros/yolo_ros': CMAKE_PREFIX_PATH=/home/psh/py_bt_ros/install/yolo_msgs:/home/psh/py_bt_ros/install/yolo_bringup:/home/psh/wego_ws/install/ydlidar_sdk:/home/psh/wego_ws/install/ydlidar_ros2_driver:/home/psh/wego_ws/install/slam_toolbox:/home/psh/wego_ws/install/orbbec_description:/home/psh/wego_ws/install/orbbec_camera:/home/psh/wego_ws/install/orbbec_camera_msgs:/home/psh/wego_ws/install/limo_base:/home/psh/wego_ws/install/limo_msgs:/home/psh/wego_ws/install/limo_description:/home/psh/wego_ws/install/limo_car PYTHONPATH=/home/psh/py_bt_ros/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/psh/py_bt_ros/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/psh/py_bt_ros/build/yolo_ros/build install --record /home/psh/py_bt_ros/build/yolo_ros/install.log --single-version-externally-managed install_data
+[1.039s] running egg_info
+[1.039s] writing ../../../build/yolo_ros/yolo_ros.egg-info/PKG-INFO
+[1.040s] writing dependency_links to ../../../build/yolo_ros/yolo_ros.egg-info/dependency_links.txt
+[1.040s] writing entry points to ../../../build/yolo_ros/yolo_ros.egg-info/entry_points.txt
+[1.040s] writing requirements to ../../../build/yolo_ros/yolo_ros.egg-info/requires.txt
+[1.040s] writing top-level names to ../../../build/yolo_ros/yolo_ros.egg-info/top_level.txt
+[1.042s] reading manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[1.043s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[1.043s] running build
+[1.043s] running build_py
+[1.044s] copying yolo_ros/yolo_node.py -> /home/psh/py_bt_ros/build/yolo_ros/build/lib/yolo_ros
+[1.044s] running install
+[1.044s] running install_lib
+[1.045s] copying /home/psh/py_bt_ros/build/yolo_ros/build/lib/yolo_ros/yolo_node.py -> /home/psh/py_bt_ros/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.046s] byte-compiling /home/psh/py_bt_ros/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/yolo_node.py to yolo_node.cpython-310.pyc
+[1.048s] running install_data
+[1.049s] running install_egg_info
+[1.051s] removing '/home/psh/py_bt_ros/install/yolo_ros/lib/python3.10/site-packages/yolo_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[1.051s] Copying ../../../build/yolo_ros/yolo_ros.egg-info to /home/psh/py_bt_ros/install/yolo_ros/lib/python3.10/site-packages/yolo_ros-0.0.0-py3.10.egg-info
+[1.052s] running install_scripts
+[1.087s] Installing debug_node script to /home/psh/py_bt_ros/install/yolo_ros/lib/yolo_ros
+[1.088s] Installing detect_3d_node script to /home/psh/py_bt_ros/install/yolo_ros/lib/yolo_ros
+[1.088s] Installing tracking_node script to /home/psh/py_bt_ros/install/yolo_ros/lib/yolo_ros
+[1.088s] Installing yolo_node script to /home/psh/py_bt_ros/install/yolo_ros/lib/yolo_ros
+[1.089s] writing list of installed files to '/home/psh/py_bt_ros/build/yolo_ros/install.log'
+[1.162s] Invoked command in '/home/psh/py_bt_ros/src/yolo_ros/yolo_ros' returned '0': CMAKE_PREFIX_PATH=/home/psh/py_bt_ros/install/yolo_msgs:/home/psh/py_bt_ros/install/yolo_bringup:/home/psh/wego_ws/install/ydlidar_sdk:/home/psh/wego_ws/install/ydlidar_ros2_driver:/home/psh/wego_ws/install/slam_toolbox:/home/psh/wego_ws/install/orbbec_description:/home/psh/wego_ws/install/orbbec_camera:/home/psh/wego_ws/install/orbbec_camera_msgs:/home/psh/wego_ws/install/limo_base:/home/psh/wego_ws/install/limo_msgs:/home/psh/wego_ws/install/limo_description:/home/psh/wego_ws/install/limo_car PYTHONPATH=/home/psh/py_bt_ros/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/psh/py_bt_ros/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/psh/py_bt_ros/build/yolo_ros/build install --record /home/psh/py_bt_ros/build/yolo_ros/install.log --single-version-externally-managed install_data
